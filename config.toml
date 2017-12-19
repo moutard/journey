@@ -31,7 +31,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "Looks like a communication issue."
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -58,18 +58,6 @@ googleAnalytics = ""
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
-
 
   # Hero section
   [params.hero]
@@ -90,19 +78,19 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Team work"
+      title = "Team workshop"
       description = "Team communcation, meeting management, build with your colleages."
-      url = "#"
+      url = "posts/team-workshop.md"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Online"
+      title = "Online training"
       description = "Our agency developed a MOOC, video and resources you can access anytime."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-snowflake-o"
-      title = "Customized"
+      title = "Customized experience"
       description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
       url = "#"
 
@@ -126,9 +114,9 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "The Speaker's Journey"
+    subtitle = "Christopher vogler wrote the 'The Writer's journey' he describes story structure for good stories. We developed framworks and techniques to enhance your communication skills."
+    endpoint = "Become a great speaker!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
