@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://speakersjourney.com/"
 languageCode = "en-us"
-title = "Agency"
+title = "Speaker's Journey"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,13 +17,13 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Speaker's Journey Agency"
+  description = "Agency specialized in Presentation and communcation skills."
 
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "untitled.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "The Speaker's Journey"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -75,8 +75,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "enhance your communication"
+    subtitle = "Be a good Speaker."
     buttonText = "Tell me more"
 
 
@@ -84,26 +84,26 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Our Agency offers variety of trainings to improve your communication skills."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-users"
+      title = "Team work"
+      description = "Team communcation, meeting management, build with your colleages."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Online"
+      description = "Our agency developed a MOOC, video and resources you can access anytime."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-snowflake-o"
+      title = "Customized"
+      description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
       url = "#"
 
   # Portfolio section
@@ -114,7 +114,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Our experience for our customers."
 
     [params.portfolio.modal]
       client = "Client"
@@ -163,7 +163,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "Meet the team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -171,19 +171,12 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      img = "raphael.png"
+      name = "Raphael Moutard"
+      position = "Co Founder"
+      livesIn = "[London, UK](#some-maps-url)"
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Software engineer @Amazon. Technical trainer and improv teacher for more than 5 years."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -191,19 +184,11 @@ She worked at Pied Piper for years until they went belly up."""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      img = "nico.jpg"
+      name = "Nico Tupe"
+      position = "Co Founder"
+      livesIn = "[Barcelona, Spain](#some-maps-url)"
+      bio = """Chief Tetrahedron Officer at @cornis_SAS / socially acceptable maths nerd of @podcastscience / always improvising."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -241,7 +226,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "We would love to hear from you."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a

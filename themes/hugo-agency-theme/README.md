@@ -4,6 +4,10 @@ Agency Theme is a one page portfolio for companies and freelancers based on the 
 
 ![Hugo Agency Theme screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-agency-theme/master/images/screenshot.png)
 
+color
+Green pale = #99d0aa
+Green = #68c785
+Dark Grey = #323232
 
 ## Installation
 
@@ -70,6 +74,7 @@ Furthermore, you can use Markdown syntax for URLs like here `[text](//url.to/sou
 To give your projects an image, save those under [`static/img/portfolio`](github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/portfolio). Don't forget to set the appropriate **filename** under `img` in your project.
 
 
+
 ### Show what happened
 
 This theme features a timeline for important events in your company or your career too. You can add a new event by copying the following snippet to the `[params.about]` section in the [`config.toml`](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml).
@@ -87,7 +92,7 @@ The image set under `img` needs to be stored at [`static/img/about`](//github.co
 
 ### Introduce your team
 
-Let the visitors or potential clients know who you are. To add a team member paste the code below into the [`config.toml`](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml). The `img` field refers to the shown image. Paste those of you or your colleages into [`static/img/team`](//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team) 
+Let the visitors or potential clients know who you are. To add a team member paste the code below into the [`config.toml`](//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml). The `img` field refers to the shown image. Paste those of you or your colleages into [`static/img/team`](//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team)
 
 ```toml
 [[params.team.members]]
@@ -130,7 +135,7 @@ Since this page will be static, you can use [formspree.io](//formspree.io/) as p
 
 ### Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server. 
+In order to see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
@@ -149,8 +154,12 @@ This theme is released under the Apache License 2.0 For more information read th
 
 ## Acknowledgements
 
-Thanks to 
+Thanks to
 
 - [David Miller](//github.com/davidtmiller) for creating this theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project
 - [Michael Grosser](https://github.com/stp-ip) for contributing a significant amount of improvements
+
+
+images
+Photo Credit: <a href="https://www.flickr.com/photos/30478819@N08/36330737463/">wuestenigel</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
