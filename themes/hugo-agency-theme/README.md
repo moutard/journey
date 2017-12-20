@@ -163,3 +163,9 @@ Thanks to
 
 images
 Photo Credit: <a href="https://www.flickr.com/photos/30478819@N08/36330737463/">wuestenigel</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
+
+ Photo Credit: <a href="https://www.flickr.com/photos/16103393@N05/38035892076/">airlines470</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
+
+ Photo Credit: <a href="https://www.flickr.com/photos/55198242@N03/24926469518/">Seabird NZ</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nd/2.0/">cc</a>
+
+  Photo Credit: <a href="https://www.flickr.com/photos/128575832@N08/36329742983/">oliver.holzbauer</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a> 
