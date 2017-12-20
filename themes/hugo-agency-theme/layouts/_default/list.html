@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default (printf "en-us") }}">
+
+  {{ partial "head.html" . }}
+  {{ $bg := .Site.Params.style.background | default "secondary"}}
+
+  <body class="{{ printf "bg-%s" $bg }}">
+    {{ partial "nav.html" . }}
+    {{ partial "hero-sub.html" . }}
+
+    <section class="bg-light-gray">
+    {{ range .Pages }}
+      {{ partial "blog-list-item.html" . }}
+    {{ end }}
+    </section>
+
+
+
+    {{ $page := replace (strings.TrimRight "/" (strings.TrimLeft "/" .RelPermalink)) "/" "__" }}
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "js.html" . }}
+
+  </body>
+</html>
