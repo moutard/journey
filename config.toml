@@ -78,21 +78,21 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Team workshop"
-      description = "Team communcation, meeting management, build with your colleages."
-      url = "posts/team-workshop.md"
+      title = "Team Workshop"
+      description = "Make your team communication flow better by practicing together."
+      url = "posts/team-workshop/"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Online training"
-      description = "Our agency developed a MOOC, video and resources you can access anytime."
-      url = "#"
+      title = "Online Training"
+      description = "Our agency developed a MOOC, videos and resources you can access anytime."
+      url = "posts/online-training/"
 
     [[params.services.row.list]]
       icon = "fa-snowflake-o"
-      title = "Customized experience"
+      title = "Customized Content"
       description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
-      url = "#"
+      url = "posts/customized-content/"
 
   # Portfolio section
   [params.portfolio]
