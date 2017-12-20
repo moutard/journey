@@ -115,36 +115,26 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "The Speaker's Journey"
-    subtitle = "Christopher vogler wrote the 'The Writer's journey' he describes story structure for good stories. We developed framworks and techniques to enhance your communication skills."
+    subtitle = "It took us many years to mature our project, here are some important milestones."
     endpoint = "Become a great speaker!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Ordinary World"
+      description = "We've been engineers for more than 8 years. Part of our job is to teach and mentor younger engineers."
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "plane.png"
+      title = "Call to Adventure"
+      description = "I taught a bootcamp in London for years when Amazon sent me to Berlin, to open a new Bootcamp."
 
+    [[params.about.events]]
+      img = "bridge.png"
+      title = "Crossing the threshold"
+      description = "Time to create our own company and share our experience."
 
   # Team section
   [params.team]
@@ -160,7 +150,7 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "raphael.png"
-      name = "Raphael Moutard"
+      name = "Raphaël Moutard"
       position = "Co Founder"
       livesIn = "[London, UK](#some-maps-url)"
       # For bio markdown and even multiline strings are available.
