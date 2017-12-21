@@ -53,9 +53,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.team.enable }}
+        {{ if .Site.Params.blog.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}/blog">{{ with .Site.Params.navigation.blog }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

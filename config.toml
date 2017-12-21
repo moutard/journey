@@ -52,6 +52,7 @@ googleAnalytics = ""
     portfolio = "Portfolio"
     about = "About"
     team = "Team"
+    blog = "Blog"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -135,6 +136,9 @@ googleAnalytics = ""
       img = "bridge.png"
       title = "Crossing the threshold"
       description = "Time to create our own company and share our experience."
+
+  [params.blog]
+    enable = true
 
   # Team section
   [params.team]
