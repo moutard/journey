@@ -4,16 +4,71 @@ $light-green: #68c785;
 $dark-grey: #323232;
 $light-grey: #777;
 
+/**
+ * General -
+ */
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+
+    > .large {
+      font-size: 16px;
+    }
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: $light-green;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: $pale-green;
+}
+
+.text-muted {
+    color: $light-grey;
+}
+
+.text-primary {
+    color: $light-green;
+}
+
 .blog-list-item-summary {
   color: $light_grey;
 }
 
-.text-primary:hover {
-    color: $pale-green;
-}
-
+/**
+ * Services -
+ */
 #services {
   .fa:hover {
     color: $white-green;
+  }
+}
+
+/**
+ * Presentation -
+ */
+#presentation, #post {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: large;
+
+  p {
+    font-size: large;
   }
 }

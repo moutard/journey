@@ -48,7 +48,7 @@ googleAnalytics = ""
     brand = "The Speaker's Journey"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    services = "Trainings"
     portfolio = "Portfolio"
     about = "About"
     team = "Team"
@@ -64,22 +64,22 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "enhance your communication"
-    subtitle = "Be a good Speaker."
-    buttonText = "Tell me more"
+    title = "improv and storytelling to"
+    subtitle = "grow your business."
+    buttonText = "Contact Us"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Our Agency offers variety of trainings to improve your communication skills."
+    title = "Trainings"
+    subtitle = "Our Agency offers variety of trainings to improve your business focusing on communication skills."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Team Workshop"
+      title = "Team Workshops"
       description = "Make your team communication flow better by practicing together."
       url = "posts/team-workshop/"
 
@@ -166,11 +166,11 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "nico.jpg"
-      name = "Nico Tupe"
+      img = "nico-2.png"
+      name = "Nico"
       position = "Co Founder"
       livesIn = "[Barcelona, Spain](#some-maps-url)"
-      bio = """Chief Tetrahedron Officer at @cornis_SAS / socially acceptable maths nerd of @podcastscience / always improvising."""
+      bio = """Chief Tetrahedron Officer at @ / socially acceptable maths nerd of @ / always improvising."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
