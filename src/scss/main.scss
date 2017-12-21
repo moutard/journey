@@ -1,8 +1,19 @@
 $pale-green: #99d0aa;
+$white-green: #eafdf0;
 $light-green: #68c785;
 $dark-grey: #323232;
 $light-grey: #777;
 
 .blog-list-item-summary {
   color: $light_grey;
+}
+
+.text-primary:hover {
+    color: $pale-green;
+}
+
+#services {
+  .fa:hover {
+    color: $white-green;
+  }
 }

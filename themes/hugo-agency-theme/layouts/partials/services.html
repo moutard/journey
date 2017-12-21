@@ -11,11 +11,13 @@
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-4">
+            <a href="{{ .url | absURL }}">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <h4 class="service-heading">{{ if .url }}{{ .title | markdownify }}{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            </a>
             <p class="text-muted">{{ .description | markdownify }}</p>
           </div>
         {{ end }}
