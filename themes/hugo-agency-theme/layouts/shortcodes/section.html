@@ -1,0 +1,15 @@
+{{ if .IsNamedParams }}
+<section {{ with .Get "class"}} class="{{.}}"{{ end }}>
+  <div class="container">
+      <h2>{{.Get "title"}}</h2>
+      {{.Get "para"}}
+    </div>
+</section>
+{{ else }}
+<section>
+  <div class="container">
+    <h2>{{.Get 0}}</h2>
+    {{.Get 1}}
+  </div>
+</section>
+{{ end }}
