@@ -800,6 +800,7 @@ section#contact .text-success {
 footer {
     padding: 25px 0;
     text-align: center;
+    font-size: 14px;
 }
 
 footer span.copyright {

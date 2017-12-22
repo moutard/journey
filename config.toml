@@ -112,10 +112,10 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
-    # About section
+  # About section
   [params.about]
     enable = true
-    title = "The Speaker's Journey"
+    title = "Our own story."
     subtitle = "It took us many years to mature our project, here are some important milestones."
     endpoint = "Become a great speaker!"
 
