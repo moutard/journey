@@ -115,27 +115,42 @@ googleAnalytics = ""
   # About section
   [params.about]
     enable = true
-    title = "Our own story."
+    title = "Our own Story."
     subtitle = "It took us many years to mature our project, here are some important milestones."
-    endpoint = "Become a great speaker!"
+    endpoint = "The Speaker's Journey"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "3.jpg"
+      img = "ordinary-world.png"
       title = "Ordinary World"
-      description = "We've been engineers for more than 8 years. Part of our job is to teach and mentor younger engineers."
+      description = "Once upon a time, a Software engineer working on high-scale components serving millions of customers. Everyday he would mentor junior engineers. Every day he would teach technical skills to new hires. Every day the number of students would increase as the company grows."
 
     [[params.about.events]]
-      img = "plane.png"
+      img = "call-to-adventure-2.png"
       title = "Call to Adventure"
-      description = "I taught a bootcamp in London for years when Amazon sent me to Berlin, to open a new Bootcamp."
+      description = "But one day, the number of new hires was so large, that there were not enough sits in the room. That's when he realized he had to train new trainers and scale horizontally."
 
     [[params.about.events]]
-      img = "bridge.png"
+      img = "morpheus.jpg"
+      title = "Meet the mentor"
+      description = "Because of that he attended a train the trainer session, where he met a 40 years long career manager, who told him the best way to grow a business was to help people grow."
+
+    [[params.about.events]]
+      img = "pills.png"
       title = "Crossing the threshold"
-      description = "Time to create our own company and share our experience."
+      description = "Because of that he traveled to Berlin and Madrid to groom new trainers. Time to create our own company and share our experience."
+
+    [[params.about.events]]
+      img = "trinity.jpg"
+      title = "Meet Allies"
+      description = "On his way he met amazing trainers and improvisers to help him build content."
+
+    [[params.about.events]]
+      img = "elixir.jpg"
+      title = "Return with the elixir"
+      description = "After all he learned through this journey, it was time for him to create his own company and share his experience."
 
   [params.blog]
     enable = true
