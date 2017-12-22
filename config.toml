@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://speakersjourney.com/"
+baseurl = "https://thespeakersjourney.co.uk/"
 languageCode = "en-us"
 title = "Speaker's Journey"
 theme = "hugo-agency-theme"
