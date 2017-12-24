@@ -122,32 +122,32 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "ordinary-world.png"
+      img = "ordinary-world-strip.png"
       title = "Ordinary World"
       description = "Once upon a time, a Software engineer working on high-scale components serving millions of customers. Everyday he would mentor junior engineers. Every day he would teach technical skills to new hires. Every day the number of students would increase as the company grows."
 
     [[params.about.events]]
-      img = "call-to-adventure-2.png"
+      img = "call-to-adventure-strip.png"
       title = "Call to Adventure"
       description = "But one day, the number of new hires was so large, that there were not enough sits in the room. That's when he realized he had to train new trainers and scale horizontally."
 
     [[params.about.events]]
-      img = "morpheus.jpg"
+      img = "morpheus-strip.png"
       title = "Meet the mentor"
       description = "Because of that he attended a train the trainer session, where he met a 40 years long career manager, who told him the best way to grow a business was to help people grow."
 
     [[params.about.events]]
-      img = "pills.png"
+      img = "pills-strip.png"
       title = "Crossing the threshold"
       description = "Because of that he traveled to Berlin and Madrid to groom new trainers. Time to create our own company and share our experience."
 
     [[params.about.events]]
-      img = "trinity.jpg"
+      img = "trinity-strip.png"
       title = "Meet Allies"
       description = "On his way he met amazing trainers and improvisers to help him build content."
 
     [[params.about.events]]
-      img = "elixir.jpg"
+      img = "elixir-strip.png"
       title = "Return with the elixir"
       description = "After all he learned through this journey, it was time for him to create his own company and share his experience."
 
