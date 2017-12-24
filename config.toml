@@ -21,7 +21,6 @@ googleAnalytics = ""
   description = "Agency specialized in Presentation and communcation skills."
 
   # Link custom assets relative to /static
-  custom_css = []
   custom_js  = []
   favicon    = "untitled.png"
 
