@@ -22,7 +22,7 @@ googleAnalytics = ""
 
   # Link custom assets relative to /static
   custom_js  = []
-  favicon    = "untitled.png"
+  favicon    = "favico.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
