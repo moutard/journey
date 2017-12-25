@@ -1,6 +1,5 @@
 {{ "<!-- Contact Section -->" | safeHTML }}
 <section id="contact">
-  <link href="{{ "css/jquery.form-validator-v2.3.44/theme-default.min.css" | absURL }}" rel="stylesheet">
 
   <div class="container">
     <div class="row">
@@ -92,4 +91,13 @@
       </div>
     </div>
   </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script>
+  $.validate({
+    lang: 'en'
+  });
+</script>
 </section>
