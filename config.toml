@@ -80,19 +80,19 @@ googleAnalytics = ""
       icon = "fa-users"
       title = "Team Workshops"
       description = "Make your team communication flow better by practicing together."
-      url = "posts/team-workshop/"
+      url = "services/team-workshop/"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Online Training"
       description = "Our agency developed a MOOC, videos and resources you can access anytime."
-      url = "posts/online-training/"
+      url = "services/online-training/"
 
     [[params.services.row.list]]
       icon = "fa-snowflake-o"
       title = "Customized Content"
       description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
-      url = "posts/customized-content/"
+      url = "services/customized-content/"
 
   # Portfolio section
   [params.portfolio]
@@ -286,4 +286,4 @@ googleAnalytics = ""
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
-      link = "posts/term-of-use/"
+      link = "pages/term-of-use/"
