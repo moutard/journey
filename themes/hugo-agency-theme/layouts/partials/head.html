@@ -8,12 +8,10 @@
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   {{ "<!-- Stylesheets -->" | safeHTML }}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="{{ "css/main.css" | absURL }}" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" type="text/css">
+  <link href="{{ "css/main.css" | absURL }}" rel="stylesheet" type="text/css" />
 
   {{ "<!-- Custom Fonts -->" | safeHTML }}
-
   {{ with not .Site.Params.disableFonts }}
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Kaushan+Script|Montserrat:400,700|Roboto+Slab|Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
   {{ end }}
