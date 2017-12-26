@@ -283,7 +283,3 @@ googleAnalytics = ""
       icon = "fa-linkedin"
       link = "#"
       title = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "pages/term-of-use/"

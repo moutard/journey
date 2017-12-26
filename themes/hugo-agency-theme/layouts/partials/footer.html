@@ -17,9 +17,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
 
-          {{ range .Site.Params.footer.quicklinks }}
-            <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
-          {{ end }}
+            <li><a href="{{ "pages/term-of-use/" | absURL }}">Terms of Use</a></li>
 
         </ul>
       </div>
