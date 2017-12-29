@@ -1,4 +1,12 @@
 /**
+ * fonts.
+ */
+ @import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:300,400,700);
+ @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+
+
+
+/**
  * Colors
  */
 $pale-green: #99d0aa;
@@ -44,7 +52,6 @@ body {
 }
 
 p {
-    font-size: medium;
 
     > .large {
       font-size: large;
@@ -97,11 +104,16 @@ a.active {
 #presentation, #post {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-  font-size: large;
-
+  font-size: medium;
 
   p {
-    font-size: large;
+    text-align: justify
+  }
+
+  @media (min-width: $large-screen) {
+    .container {
+      width: 850px;
+    }
   }
 }
 
@@ -146,6 +158,7 @@ h6 {
    text-transform: uppercase;
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight: 700;
+   margin-bottom: 20px;
 }
 
 .img-centered {
@@ -267,6 +280,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
    border-color: transparent;
    background-color: #222;
+   font-size: small;
 }
 
 .navbar-default .navbar-brand {
@@ -500,7 +514,7 @@ section h3.section-subheading {
    margin-bottom: 75px;
    text-transform: none;
    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-   font-size: 1.5em;
+   font-size: 1em;
    font-style: italic;
    font-weight: 400;
 }
@@ -1114,7 +1128,6 @@ body {
 /**
  * Quotes
  */
-@import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:300,400,700);
 
 blockquote {
   font-family: Ubuntu;
