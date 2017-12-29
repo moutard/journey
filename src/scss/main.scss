@@ -7,6 +7,24 @@ $light-green: #68c785;
 $dark-grey: #323232;
 $light-grey: #777;
 
+.color-primary-0 { color: #68C785 }	/* Main Primary color - Green */
+.color-primary-1 { color: #C7F1D4 }
+.color-primary-2 { color: #95DEAB }
+.color-primary-3 { color: #44AE64 }
+.color-primary-4 { color: #279749 }
+
+$yellow-1: #FFDB85;
+$yellow-2: #FFF2D2;
+$yellow-3: #FFE6AB;
+$yellow-4: #EBC05B;
+$yellow-5: #CC9F35;
+
+$purple-1: #A262B6;
+$purple-2: #E3C5ED;
+$purple-3: #C491D5;
+$purple-4: #85409B;
+$purple-5: #702787;
+
 /**
  * Size
  */
@@ -20,15 +38,16 @@ $xlarge-screen: 1200px;
  */
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: medium;
+    font-weight: 300;
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: medium;
 
     > .large {
-      font-size: 16px;
+      font-size: large;
     }
 }
 
@@ -76,8 +95,10 @@ a.active {
  * Presentation -
  */
 #presentation, #post {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   font-size: large;
+
 
   p {
     font-size: large;
@@ -472,14 +493,14 @@ section {
 section h2.section-heading {
    margin-top: 0;
    margin-bottom: 15px;
-   font-size: 40px;
+   font-size: 2.3em;
 }
 
 section h3.section-subheading {
    margin-bottom: 75px;
    text-transform: none;
    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-   font-size: 16px;
+   font-size: 1.5em;
    font-style: italic;
    font-weight: 400;
 }
@@ -1081,4 +1102,51 @@ body {
 
 .blog-list-item a:hover, a:visited, a:link, a:active {
    text-decoration: none;
+}
+
+.quote {
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    color: $purple-1;
+    margin:auto;
+}
+
+/**
+ * Quotes
+ */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:300,400,700);
+
+blockquote {
+  font-family: Ubuntu;
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  margin: 1.5em 0;
+  position: relative;
+  font: normal 300 1em/1.5em 'Alegreya Sans', sans-serif;
+  font-size: large;
+  font-style: italic;
+  color: $light-grey;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 4rem;
+  height: 4rem;
+  font: 6em/1.08em 'PT Sans', sans-serif;
+  color: $purple-1;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: $purple-1;
 }
