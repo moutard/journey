@@ -11,6 +11,8 @@
     <section id="team-building">
       <div class="container">
         <h1>Team Building</h1>
+        {{ $brickurl := printf "img/brick-wall.png"  }}
+        <img class="img-responsive" src="{{ $brickurl | absURL }}" alt="" style="float: right;margin-left: 20px;">
         <p>
           There is a common trait between jazz improvisation, working on a play, and releasing a software. It’s always a team effort. You can’t do it alone.
         </p>
@@ -37,6 +39,8 @@
     <section id="communication-management" class="bg-light-gray">
       <div class="container">
         <h1>Communication and Management</h1>
+        {{ $muteurl := printf "img/mute.png"  }}
+        <img class="img-responsive" src="{{ $muteurl | absURL }}" alt="" style="float: left;margin-right: 20px;">
         <p>
           Before you can speak, you should learn to listen. This is all you need to know about communication. But it requires practice. Great leaders listen feedbacks and use them to support their team.
         </p>
@@ -62,6 +66,8 @@
     <section id="presentation-skills">
       <div class="container">
         <h1>Presentation Skills</h1>
+        {{ $url := printf "img/presentation.png"  }}
+        <img class="img-responsive" src="{{ $url | absURL }}" alt="" style="float: right;margin-left: 20px;">
         <p>
           Every time we ask, why people don't want to present in front of an audience the answer is always the same: ''fear''. Fear of being judged, of looking stupid, of being boring.
         </p>
@@ -85,6 +91,8 @@
     <section id="agile-methodology" class="bg-light-gray">
       <div class="container">
         <h1>Agile Methodology</h1>
+        {{ $rocketurl := printf "img/rocket.png"  }}
+        <img class="img-responsive" src="{{ $rocketurl | absURL }}" alt="" style="float: left;margin-right: 20px;">
         <p>
           Every time we ask, why people don't want to present in front of an audience the answer is always the same: ''fear''.
           Fear of being judged, of looking stupid, of being boring.
