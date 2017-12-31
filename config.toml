@@ -197,7 +197,7 @@ googleAnalytics = ""
       # Possibility to center items
       center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      #title = "We've been there"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
