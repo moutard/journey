@@ -47,7 +47,7 @@ googleAnalytics = ""
     brand = "The Speaker's Journey"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Trainings"
+    services = "Pricing"
     portfolio = "Portfolio"
     about = "About"
     team = "Team"

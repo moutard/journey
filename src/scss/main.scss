@@ -12,14 +12,16 @@
 $pale-green: #99d0aa;
 $white-green: #eafdf0;
 $light-green: #68c785;
+$flash-green: #3dd095;
+
 $dark-grey: #323232;
 $light-grey: #777;
 
-.color-primary-0 { color: #68C785 }	/* Main Primary color - Green */
-.color-primary-1 { color: #C7F1D4 }
-.color-primary-2 { color: #95DEAB }
-.color-primary-3 { color: #44AE64 }
-.color-primary-4 { color: #279749 }
+$green-1: #68C785;	/* Main Primary color - Green */
+$green-2: #C7F1D4;
+$green-3: #95DEAB;
+$green-4: #44AE64;
+$green-5: #279749;
 
 $yellow-1: #FFDB85;
 $yellow-2: #FFF2D2;
@@ -44,6 +46,14 @@ $xlarge-screen: 1200px;
 /**
  * General -
  */
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -174,12 +184,12 @@ h6 {
 }
 
 .btn-primary {
-   border-color: #99d0aa;
+   border: none;
    text-transform: uppercase;
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight: 700;
    color: #fff;
-   background-color: #99d0aa;
+   background-color: $flash-green;
 }
 
 .btn-primary:hover,
@@ -1165,4 +1175,182 @@ blockquote:after {
 .client-logo {
   width: 200px;
   padding: 10px;
+}
+
+/**
+ * price
+ */
+
+ .price-article {
+    position: relative;
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    z-index: 10;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    &.blue {
+      .price-presentation {
+        background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
+      }
+      .price-detail .price-advantages>li:before {
+          background: #5BABDB;
+      }
+      .price-cta > .btn-primary {
+        background: #5BABDB;
+      }
+    }
+
+    &.purple {
+      .price-presentation {
+        background: linear-gradient(to bottom right, #BA7FEB, #476FC2);
+      }
+      .price-detail .price-advantages>li:before {
+          background: #6974CE;
+      }
+      .price-cta > .btn-primary {
+        background: #6974CE;
+      }
+    }
+
+    &.green {
+      .price-presentation {
+        background: #3dd095;
+      }
+      .price-detail .price-advantages>li:before {
+          background: #3dd095;
+      }
+      .price-cta > .btn-primary {
+        background: #3dd095;
+      }
+    }
+
+    &.orange {
+      .price-presentation {
+        background: linear-gradient(to top right, #E56C6C, #FFE56B);;
+      }
+      .price-detail .price-advantages>li:before {
+          background: #F1A16C;
+      }
+      .price-cta > .btn-primary {
+        background: #F1A16C;
+      }
+    }
+
+    .price-presentation, .price-detail {
+      visibility: visible;
+      animation-name: fadeInTop;
+      animation-duration: .3s;
+      transition-timing-function: cubic-bezier(0.05, 0.69, 0.14, 1);
+      animation-fill-mode: both;
+      position: relative;
+      flex: 1;
+      padding: 50px;
+    }
+
+    .price-detail {
+      background: #ffffff;
+      color: #3C507A;
+      animation-delay: 0.2s;
+      -webkit-border-radius: 0 10px 10px 0;
+      -moz-border-radius: 0 10px 10px 0;
+      -ms-border-radius: 0 10px 10px 0;
+      -o-border-radius: 0 10px 10px 0;
+      border-radius: 0 10px 10px 0;
+      display: flex;
+      flex-direction: column;
+
+      li a {
+        color: #3C507A;
+      }
+      .price-cta {
+        float: right;
+      }
+    }
+
+    .price-presentation {
+        text-align: center;
+        color: #ffffff;
+        -webkit-border-radius: 10px 0 0 10px;
+        -moz-border-radius: 10px 0 0 10px;
+        -ms-border-radius: 10px 0 0 10px;
+        -o-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+
+        > .price {
+          right: 50px;
+          bottom: 50px;
+          line-height: normal;
+          display: flex;
+          align-items: baseline;
+          float:right;
+
+          > .price-value {
+              display: block;
+              font-size: 70px;
+              line-height: 80px;
+              font-weight: bold;
+          }
+
+          .price-currency {
+              font-size: 30px;
+          }
+
+          > .price-value-infos {
+            > .price-period {
+                display: block;
+                vertical-align: bottom;
+                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+                opacity: 0.8;
+            }
+          }
+        }
+    }
+}
+
+.price-article.secondary .price-presentation {
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+.price-article.secondary .price-detail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price-advantages>li:before{background:#6974CE}
+
+.price-article .price-detail .price-advantages>li:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background: #3dd095;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.price-article .price-detail .price-advantages>li:before {
+    background: #F1A16C;
+}
+
+.price-article .price-detail .price-advantages>li {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 23px;
 }

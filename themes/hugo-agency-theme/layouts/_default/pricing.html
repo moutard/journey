@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default (printf "en-us") }}">
+
+  {{ partial "head.html" . }}
+  {{ $bg := .Site.Params.style.background | default "secondary"}}
+
+  <body id="pricing" class="bg-light-gray">
+    {{ partial "nav.html" . }}
+    {{ partial "hero-sub.html" . }}
+
+    {{ partial "price.html" . }}
+
+
+    {{ $page := replace (strings.TrimRight "/" (strings.TrimLeft "/" .RelPermalink)) "/" "__" }}
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "js.html" . }}
+
+  </body>
+</html>
