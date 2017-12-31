@@ -30,7 +30,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Looks like a communication issue."
+    heading = "Looks like a communication issue"
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -64,7 +64,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "improv and storytelling to"
-    subtitle = "grow your business."
+    subtitle = "grow your business"
     buttonText = "Contact Us"
 
 
@@ -114,7 +114,7 @@ googleAnalytics = ""
   # About section
   [params.about]
     enable = true
-    title = "Our own Story."
+    title = "Our own Story"
     subtitle = "It took us many years to mature our project, here are some important milestones."
     endpoint = "The Speaker's Journey"
 
