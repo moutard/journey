@@ -47,10 +47,11 @@ googleAnalytics = ""
     brand = "The Speaker's Journey"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Pricing"
+    services = "Workshop"
     portfolio = "Portfolio"
     about = "About"
     team = "Team"
+    pricing = "Pricing"
     blog = "Blog"
     contact = "Contact"
 
@@ -152,6 +153,9 @@ googleAnalytics = ""
       description = "After all he learned through this journey, it was time for him to create his own company and share his experience."
 
   [params.blog]
+    enable = false
+
+  [params.pricing]
     enable = true
 
   # Team section

@@ -37,7 +37,7 @@
 
         {{ if .Site.Params.services.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}/services/pricing">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}/services/team-workshop">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -56,6 +56,12 @@
         {{ if .Site.Params.blog.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}/blog">{{ with .Site.Params.navigation.blog }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.pricing.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}/services/pricing">{{ with .Site.Params.navigation.pricing }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

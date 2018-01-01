@@ -22,18 +22,45 @@ $green-2: #C7F1D4;
 $green-3: #95DEAB;
 $green-4: #44AE64;
 $green-5: #279749;
+$green-6: #3DD095;
 
 $yellow-1: #FFDB85;
 $yellow-2: #FFF2D2;
 $yellow-3: #FFE6AB;
 $yellow-4: #EBC05B;
 $yellow-5: #CC9F35;
+$orange-6: #F1A16C;
 
 $purple-1: #A262B6;
 $purple-2: #E3C5ED;
 $purple-3: #C491D5;
 $purple-4: #85409B;
 $purple-5: #702787;
+$purple-6: #6974CE;
+
+$blue-6: #5BABDB;
+
+.purple {
+  background: $purple-6;
+}
+.blue {
+  background: $blue-6;
+}
+.orange {
+  background: $orange-6;
+}
+.green {
+  background: $green-6;
+}
+.blue-gradient {
+  background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
+}
+.purple-gradient {
+  background: linear-gradient(to bottom right, #BA7FEB, #476FC2);
+}
+.orange-gradient {
+  background: linear-gradient(to top right, #E56C6C, #FFE56B);
+}
 
 /**
  * Size
@@ -195,7 +222,6 @@ h6 {
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight: 700;
    color: #fff;
-   background-color: $flash-green;
 }
 
 .btn-primary:hover,
@@ -1148,6 +1174,18 @@ blockquote {
   font-size: large;
   font-style: italic;
   color: $light-grey;
+  &.purple-theme {
+    color: $purple-6;
+  }
+  &.blue-theme {
+    color: $blue-6;
+  }
+  &.green-theme {
+    color: $green-6;
+  }
+  &.orange-theme {
+    color: $orange-6;
+  }
 }
 blockquote:before {
   content: '\201C';
@@ -1159,7 +1197,7 @@ blockquote:before {
   width: 4rem;
   height: 4rem;
   font: 6em/1.08em 'PT Sans', sans-serif;
-  color: $purple-1;
+
   text-align: center;
 }
 blockquote:after {
@@ -1167,7 +1205,6 @@ blockquote:after {
   display: block;
   text-align: right;
   font-size: 0.875em;
-  color: $purple-1;
 }
 
 
@@ -1186,27 +1223,7 @@ blockquote:after {
 /**
  * price
  */
-.purple {
-  background: #6974CE;
-}
-.blue {
-  background: #5BABDB;
-}
-.orange {
-  background: #F1A16C;
-}
-.green {
-  background: #3DD095;
-}
-.blue-gradient {
-  background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
-}
-.purple-gradient {
-  background: linear-gradient(to bottom right, #BA7FEB, #476FC2);
-}
-.orange-gradient {
-  background: linear-gradient(to top right, #E56C6C, #FFE56B);
-}
+
 
 .price-article {
     position: relative;
@@ -1382,10 +1399,21 @@ blockquote:after {
 }
 
 .full-circle {
-  background-color: #c06;
   height: 100px;
   width:100px;
   -moz-border-radius:75px;
   -webkit-border-radius: 75px;
   margin: auto;
 }
+
+.workshop-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/**
+#team-building {
+  -webkit-mask:  url(../img/brick-wall-icon.svg) no-repeat 50% 50%;
+  mask: url(../img/brick-wall-icon.svg) no-repeat 50% 50%;
+}
+**/

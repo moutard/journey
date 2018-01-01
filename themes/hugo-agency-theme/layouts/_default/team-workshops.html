@@ -23,18 +23,21 @@
           That’s the kind of structure you want to build in your organisation. A good team requires trust. You also have to acknowledge that everyone is different, has their own strength, and area of expertise. In her book <b>“Quiet: The power of introverts in a world that can't stop talking”</b> Susan Cain reminds us than in a world that embraces and admires extrovert, some of our greatest ideas - from the theory of evolution to van Gogh’s sunflowers - came from quiet and cerebral people who knew how to tune in to their inner worlds and the treasures to be found there. We just need to listen.
         </p>
 
-        <blockquote cite="Software Manager @Amazon">I worked on a worldwide release, it took 20 teams across 5 timezones to work hand in hand for 5 months and finally everyone was involved during the 2h release. This would never happen without communication and team trust.</blockquote>
+        <blockquote class="purple-theme" cite="Software Manager @Amazon">I worked on a worldwide release, it took 20 teams across 5 timezones to work hand in hand for 5 months and finally everyone was involved during the 2h release. This would never happen without communication and team trust.</blockquote>
 
         <p>
           Our workshops are designed to build trust as our trainers create a safe environment where everyone can learn. We teach to listen, accept other ideas as an offer, and favour quality communication instead of noisy interactions. We are using improv games to demonstrate that we can all bring something to a team.
         </p>
 
-        {{ $bricksvg := printf "img/brick-wall-gradient.svg"  }}
-        <img class="img-responsive" src="{{ $bricksvg | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
         <div class="workshop-details">
-          <b>Details:</b> 8 - 20 people<br/>
-          <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
+          <div class="workshop-capacity">
+            <b>Capacity:</b> 8 - 20 people
+          </div>
+          <a class="btn btn-primary purple" href="/#contact">contact us
+            <i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px"></i>
+          </a>
         </div>
+
       </div>
     </section>
 
@@ -55,16 +58,14 @@
         <p>
           This workshop focus on listening skills and getting/providing feedbacks. Then with more advanced techniques we help you to leverage those feedbacks. Negative feedbacks can be hard to receive but they are usually the best ones. You just need to accept them.
         </p>
-        {{ $mutesvg := printf "img/mute-gradient.svg"  }}
-        <img class="img-responsive" src="{{ $mutesvg | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
 
         <div class="workshop-details">
-          <b>Details:</b> 10 - 20 people<br/>
-          <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
-        </div>
-        </div>
-
-        </p>
+          <div class="workshop-capacity">
+            <b>Capacity:</b> 8 - 20 people
+          </div>
+          <a class="btn btn-primary orange" href="/#contact">contact us
+            <i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px"></i>
+          </a>
       </div>
     </section>
 
@@ -82,24 +83,25 @@
         <p>
           Why would you fear the audience? It’s your strongest allie in the room. When you attend a conference you expect to learn something. If the presenter fails to deliver, then you lost your time. It’s a lose-lose interaction. The audience wants you to succeed.
         </p>
-        <blockquote cite="Keith Johnstone">Normal trainings ignore the fear. We should start by the fear. This universal phobia of being looked at.</blockquote>
+        <blockquote class="blue-theme" cite="Keith Johnstone">Normal trainings ignore the fear. We should start by the fear. This universal phobia of being looked at.</blockquote>
         <p>
           This workshop focuses on fear management. We use techniques to listen feedback from the audience. We also had storytelling techniques to help you deliver your message efficiently.
         </p>
-        {{ $url := printf "img/presentation-gradient.svg"  }}
-        <img class="img-responsive" src="{{ $url | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
         <div class="workshop-details">
-          <b>Details:</b> 10 - 20 people<br/>
-          <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
-        </div>
+          <div class="workshop-capacity">
+            <b>Capacity:</b> 8 - 20 people
+          </div>
+          <a class="btn btn-primary blue" href="/#contact">contact us
+            <i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px"></i>
+          </a>
       </div>
     </section>
 
     <section id="agile-methodology" class="bg-light-gray">
       <div class="container">
+        <div class="full-circle green" style="margin-bottom: -88px"></div>
+
         <h1>Agile Methodology</h1>
-        {{ $rocketurl := printf "img/rocket.png"  }}
-        <img class="img-responsive" src="{{ $rocketurl | absURL }}" alt="" style="float: left;margin-right: 20px;">
         <p>
           Every time we ask, why people don't want to present in front of an audience the answer is always the same: ''fear''.
           Fear of being judged, of looking stupid, of being boring.
@@ -110,9 +112,12 @@
           Get a positive attitude to mistakes. You can’t learn anything without doing mistakes, so take risks.
         </p>
         <div class="workshop-details">
-          <b>Details:</b> 10 - 20 people<br/>
-          <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
-        </div>
+          <div class="workshop-capacity">
+            <b>Capacity:</b> 8 - 20 people
+          </div>
+          <a class="btn btn-primary green" href="/#contact">contact us
+            <i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px"></i>
+          </a>
       </div>
     </section>
     {{ $page := replace (strings.TrimRight "/" (strings.TrimLeft "/" .RelPermalink)) "/" "__" }}
