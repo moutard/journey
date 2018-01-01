@@ -1186,7 +1186,18 @@ blockquote:after {
 /**
  * price
  */
-
+.purple {
+  background: #6974CE;
+}
+.blue {
+  background: #5BABDB;
+}
+.orange {
+  background: #F1A16C;
+}
+.green {
+  background: #3DD095;
+}
 .blue-gradient {
   background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
 }
@@ -1210,51 +1221,51 @@ blockquote:after {
     -o-border-radius: 10px;
     border-radius: 10px;
 
-    &.blue {
+    &.blue-theme {
       .price-presentation {
         @extend .blue-gradient;
       }
       .price-detail .price-advantages>li:before {
-          background: #5BABDB;
+        @extend .blue;
       }
       .price-cta > .btn-primary {
-        background: #5BABDB;
+        @extend .blue;
       }
     }
 
-    &.purple {
+    &.purple-theme {
       .price-presentation {
         @extend .purple-gradient;
       }
       .price-detail .price-advantages>li:before {
-          background: #6974CE;
+        @extend .purple;
       }
       .price-cta > .btn-primary {
-        background: #6974CE;
+        @extend .purple;
       }
     }
 
-    &.green {
+    &.green-theme {
       .price-presentation {
-        background: #3dd095;
+        @extend .green;
       }
       .price-detail .price-advantages>li:before {
-          background: #3dd095;
+        @extend .green;
       }
       .price-cta > .btn-primary {
-        background: #3dd095;
+        @extend .green;
       }
     }
 
-    &.orange {
+    &.orange-theme {
       .price-presentation {
         @extend .orange-gradient;
       }
       .price-detail .price-advantages>li:before {
-          background: #F1A16C;
+        @extend .orange;
       }
       .price-cta > .btn-primary {
-        background: #F1A16C;
+        @extend .orange;
       }
     }
 
