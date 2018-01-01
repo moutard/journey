@@ -10,9 +10,9 @@
 
     <section id="team-building">
       <div class="container">
-        <h1>Team Building</h1>
-        {{ $brickurl := printf "img/brick-wall.png"  }}
-        <img class="img-responsive" src="{{ $brickurl | absURL }}" alt="" style="float: right;margin-left: 20px;">
+        <div class="full-circle purple-gradient" style="margin-bottom: -88px"></div>
+
+        <h1 style="text-align:center;">Team Building</h1>
         <p>
           There is a common trait between jazz improvisation, working on a play, and releasing a software. It’s always a team effort. You can’t do it alone.
         </p>
@@ -29,6 +29,8 @@
           Our workshops are designed to build trust as our trainers create a safe environment where everyone can learn. We teach to listen, accept other ideas as an offer, and favour quality communication instead of noisy interactions. We are using improv games to demonstrate that we can all bring something to a team.
         </p>
 
+        {{ $bricksvg := printf "img/brick-wall-gradient.svg"  }}
+        <img class="img-responsive" src="{{ $bricksvg | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
         <div class="workshop-details">
           <b>Details:</b> 8 - 20 people<br/>
           <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
@@ -37,10 +39,10 @@
     </section>
 
     <section id="communication-management" class="bg-light-gray">
+
       <div class="container">
-        <h1>Communication and Management</h1>
-        {{ $muteurl := printf "img/mute.png"  }}
-        <img class="img-responsive" src="{{ $muteurl | absURL }}" alt="" style="float: left;margin-right: 20px;">
+        <div class="full-circle orange-gradient" style="margin-bottom: -88px"></div>
+        <h1 style="text-align:center;">Communication and Management</h1>
         <p>
           Before you can speak, you should learn to listen. This is all you need to know about communication. But it requires practice. Great leaders listen feedbacks and use them to support their team.
         </p>
@@ -53,6 +55,9 @@
         <p>
           This workshop focus on listening skills and getting/providing feedbacks. Then with more advanced techniques we help you to leverage those feedbacks. Negative feedbacks can be hard to receive but they are usually the best ones. You just need to accept them.
         </p>
+        {{ $mutesvg := printf "img/mute-gradient.svg"  }}
+        <img class="img-responsive" src="{{ $mutesvg | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
+
         <div class="workshop-details">
           <b>Details:</b> 10 - 20 people<br/>
           <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>
@@ -65,9 +70,9 @@
 
     <section id="presentation-skills">
       <div class="container">
+        <div class="full-circle blue-gradient" style="margin-bottom: -88px"></div>
         <h1>Presentation Skills</h1>
-        {{ $url := printf "img/presentation.png"  }}
-        <img class="img-responsive" src="{{ $url | absURL }}" alt="" style="float: right;margin-left: 20px;">
+
         <p>
           Every time we ask, why people don't want to present in front of an audience the answer is always the same: ''fear''. Fear of being judged, of looking stupid, of being boring.
         </p>
@@ -81,6 +86,8 @@
         <p>
           This workshop focuses on fear management. We use techniques to listen feedback from the audience. We also had storytelling techniques to help you deliver your message efficiently.
         </p>
+        {{ $url := printf "img/presentation-gradient.svg"  }}
+        <img class="img-responsive" src="{{ $url | absURL }}" alt="" style="width:100px;margin: auto; margin-bottom:-40px; margin-top:20px;">
         <div class="workshop-details">
           <b>Details:</b> 10 - 20 people<br/>
           <b>Pricing:</b> <a href="{{ .Site.BaseURL }}#contact">Contact us for details.</a><br/>

@@ -127,6 +127,12 @@ a.active {
   }
 }
 
+#post {
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
 /**
  * Shortcodes
  */
@@ -464,7 +470,7 @@ header .intro-text-single .intro-heading {
   }
 
   section {
-      padding: 80px 0;
+      padding: 70px 0;
   }
 
    header .intro-text {
@@ -511,7 +517,7 @@ header .intro-text-single .intro-heading {
  * Section.
  */
 section {
-   padding: 100px 0;
+   padding: 70px 0;
 }
 
 section h2.section-heading {
@@ -1181,7 +1187,17 @@ blockquote:after {
  * price
  */
 
- .price-article {
+.blue-gradient {
+  background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
+}
+.purple-gradient {
+  background: linear-gradient(to bottom right, #BA7FEB, #476FC2);
+}
+.orange-gradient {
+  background: linear-gradient(to top right, #E56C6C, #FFE56B);
+}
+
+.price-article {
     position: relative;
     display: flex;
     width: 80%;
@@ -1196,7 +1212,7 @@ blockquote:after {
 
     &.blue {
       .price-presentation {
-        background: linear-gradient(to bottom right, #5EDDDE, #5982D8);
+        @extend .blue-gradient;
       }
       .price-detail .price-advantages>li:before {
           background: #5BABDB;
@@ -1208,7 +1224,7 @@ blockquote:after {
 
     &.purple {
       .price-presentation {
-        background: linear-gradient(to bottom right, #BA7FEB, #476FC2);
+        @extend .purple-gradient;
       }
       .price-detail .price-advantages>li:before {
           background: #6974CE;
@@ -1232,7 +1248,7 @@ blockquote:after {
 
     &.orange {
       .price-presentation {
-        background: linear-gradient(to top right, #E56C6C, #FFE56B);;
+        @extend .orange-gradient;
       }
       .price-detail .price-advantages>li:before {
           background: #F1A16C;
@@ -1314,13 +1330,12 @@ blockquote:after {
 }
 
 .price-article.secondary .price-presentation {
-    overflow: hidden;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px;
-
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .price-article.secondary .price-detail {
@@ -1331,26 +1346,35 @@ blockquote:after {
 .price-advantages>li:before{background:#6974CE}
 
 .price-article .price-detail .price-advantages>li:before {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    top: 7px;
-    width: 8px;
-    height: 8px;
-    background: #3dd095;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 8px;
+  height: 8px;
+  background: #3dd095;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .price-article .price-detail .price-advantages>li:before {
-    background: #F1A16C;
+  background: #F1A16C;
 }
 
 .price-article .price-detail .price-advantages>li {
-    position: relative;
-    margin: 10px 0;
-    padding-left: 23px;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 23px;
+}
+
+.full-circle {
+  background-color: #c06;
+  height: 100px;
+  width:100px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+  margin: auto;
 }
