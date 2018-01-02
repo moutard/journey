@@ -47,7 +47,7 @@ googleAnalytics = ""
     brand = "The Speaker's Journey"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Workshops"
+    services = "Trainings"
     portfolio = "Portfolio"
     about = "About"
     team = "Team"
@@ -66,34 +66,59 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "improv and storytelling to"
     subtitle = "grow your business"
-    buttonText = "Contact Us"
+    buttonText = "Get your training now"
 
 
   # Services section
   [params.services]
     enable = true
     title = "Trainings"
-    subtitle = "Our Agency offers variety of trainings to improve your business focusing on communication skills."
+    subtitle = "Our Agency offers variety of trainings focusing on communication skills to improve your business."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Team Workshops"
+      title = "Team Building"
       description = "Make your team communication flow better by practicing together."
       url = "services/team-workshop/"
+      section = "team-building"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Online Training"
-      description = "Our agency developed a MOOC, videos and resources you can access anytime."
-      url = "services/online-training/"
+      icon = "fa-line-chart"
+      title = "Presentation Skills"
+      description = "Get confidence and lean learn how to deal with large audience."
+      url = "services/team-workshop/"
+      section = "presentation-skills"
+
+    [[params.services.row.list]]
+      icon = "fa-rocket"
+      title = "Agile Methodolody"
+      description = "Learn to value interactions over process and react to change."
+      url = "services/team-workshop/"
+      section = "agile-methodology"
+
+    [[params.services.row.list]]
+      icon = "fa-deaf"
+      title = "For Managers"
+      description = "Good leader listen to their team, improv focuses on listening."
+      url = "services/team-workshop/"
+      section = "communication-management"
+
+    [[params.services.row.list]]
+      icon = "fa-code"
+      title = "For Software Engineers"
+      description = "Software development requires teams to collaborate."
+      url = "services/team-workshop"
+      section = "improv-software"
 
     [[params.services.row.list]]
       icon = "fa-snowflake-o"
       title = "Customized Content"
       description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
-      url = "services/customized-content/"
+      url = "services/team-workshop/"
+      section = "customized-content"
+      color = "text-blue"
 
   # Portfolio section
   [params.portfolio]

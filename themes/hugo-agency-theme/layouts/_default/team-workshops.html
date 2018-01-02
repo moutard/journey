@@ -145,6 +145,26 @@ yourself. But you can’t learn anything without failing.[...] You should have a
           </a>
       </div>
     </section>
+
+
+    <section id="customized-content">
+      <div class="container">
+        <div class="full-circle green" style="margin-bottom: -88px"></div>
+
+        <h1>Customized Content</h1>
+        <p>
+          We provide tailor content for your specific needs. Just contact us to work with us.
+        </p>
+
+        <div class="workshop-details">
+          <div class="workshop-capacity">
+          </div>
+          <a class="btn btn-primary green" href="/#contact">contact us
+            <i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px"></i>
+          </a>
+      </div>
+    </section>
+
     {{ $page := replace (strings.TrimRight "/" (strings.TrimLeft "/" .RelPermalink)) "/" "__" }}
 
     {{ partial "footer.html" . }}

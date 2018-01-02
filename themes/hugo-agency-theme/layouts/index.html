@@ -7,11 +7,12 @@
     {{ partial "nav.html" . }}
     {{ partial "hero.html" . }}
 
-    {{ partial "presentation.html" . }}
 
     {{ if .Site.Params.services.enable }}
       {{ partial "services.html" . }}
     {{ end }}
+
+    {{ partial "presentation.html" . }}
 
     {{ if .Site.Params.portfolio.enable }}
       {{ partial "portfolio.html" . }}

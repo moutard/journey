@@ -122,6 +122,10 @@ a.active {
     color: $light-green;
 }
 
+.text-blue {
+    color: $blue-6;
+}
+
 .blog-list-item-summary {
   color: $light_grey;
 }
@@ -132,6 +136,10 @@ a.active {
 #services {
   .fa:hover {
     color: $white-green;
+  }
+
+  .col-md-4 {
+    margin-bottom: 15px;
   }
 }
 
@@ -553,7 +561,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-   margin-bottom: 75px;
+   margin-bottom: 50px;
    text-transform: none;
    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: 1em;
@@ -564,7 +572,7 @@ section h3.section-subheading {
 
 
 .service-heading {
-   margin: 15px 0;
+   margin: 5px 0;
    text-transform: none;
 }
 
@@ -1411,6 +1419,10 @@ blockquote:after {
   justify-content: space-between;
 }
 
+.see-all {
+  display: flex;
+  justify-content: center;
+}
 /**
 #team-building {
   -webkit-mask:  url(../img/brick-wall-icon.svg) no-repeat 50% 50%;
