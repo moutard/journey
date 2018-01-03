@@ -1232,6 +1232,13 @@ blockquote:after {
  * price
  */
 
+.price-title {
+  position: relative;
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto 10px;
+}
 
 .price-article {
     position: relative;
