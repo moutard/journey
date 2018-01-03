@@ -64,8 +64,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "improv and storytelling to"
-    subtitle = "grow your business"
+    title = "grow your business with"
+    subtitle = "improv and storytelling"
     buttonText = "Get your training now"
 
 
@@ -92,14 +92,14 @@ googleAnalytics = ""
       section = "presentation-skills"
 
     [[params.services.row.list]]
-      icon = "fa-rocket"
+      icon = "fa-industry"
       title = "Agile Methodolody"
       description = "Learn to value interactions over process and react to change."
       url = "services/team-workshop/"
       section = "agile-methodology"
 
     [[params.services.row.list]]
-      icon = "fa-deaf"
+      icon = "fa-trophy"
       title = "For Managers"
       description = "Good leader listen to their team, improv focuses on listening."
       url = "services/team-workshop/"
@@ -111,14 +111,6 @@ googleAnalytics = ""
       description = "Software development requires teams to collaborate."
       url = "services/team-workshop"
       section = "improv-software"
-
-    [[params.services.row.list]]
-      icon = "fa-snowflake-o"
-      title = "Customized Content"
-      description = "Every snowflake is unique, we can offer you a personalized experience. Contact us to discuss your needs."
-      url = "services/team-workshop/"
-      section = "customized-content"
-      color = "text-blue"
 
   # Portfolio section
   [params.portfolio]

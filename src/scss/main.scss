@@ -1256,6 +1256,9 @@ blockquote:after {
       .price-cta > .btn-primary {
         @extend .blue;
       }
+      .training-icon {
+        @extend .blue;
+      }
     }
 
     &.purple-theme {
@@ -1266,6 +1269,9 @@ blockquote:after {
         @extend .purple;
       }
       .price-cta > .btn-primary {
+        @extend .purple;
+      }
+      .training-icon {
         @extend .purple;
       }
     }
@@ -1280,6 +1286,9 @@ blockquote:after {
       .price-cta > .btn-primary {
         @extend .green;
       }
+      .training-icon {
+        @extend .green;
+      }
     }
 
     &.orange-theme {
@@ -1290,6 +1299,9 @@ blockquote:after {
         @extend .orange;
       }
       .price-cta > .btn-primary {
+        @extend .orange;
+      }
+      .training-icon {
         @extend .orange;
       }
     }
@@ -1422,6 +1434,31 @@ blockquote:after {
 .see-all {
   display: flex;
   justify-content: center;
+}
+
+.training-icon {
+  background: linear-gradient(to bottom right, #68c785, #7bdc7d);
+  border-radius: 80px;
+  margin-bottom: 10px;
+
+}
+
+#price-warning {
+  h4, h3 {
+    text-transform: none;
+  }
+  padding: 30px 0 0;
+  @media (min-width: $large-screen) {
+    .container {
+      width: 850px;
+    }
+  }
+}
+
+.workshop-title {
+  display:inline;
+  text-align:center;
+  margin-left: 20px;
 }
 /**
 #team-building {

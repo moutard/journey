@@ -8,7 +8,13 @@
     {{ partial "nav.html" . }}
     {{ partial "hero-sub.html" . }}
 
-    {{ partial "price.html" . }}
+    <section id="price-warning">
+      <div class="container">
+      <h3>All ou trainings are available individually</h3>
+      <h4 style="float:right;">or prefer a pack tailored for your needs.</h4>
+      </div>
+    </section>
+    {{ partial "packs.html" . }}
 
 
     {{ $page := replace (strings.TrimRight "/" (strings.TrimLeft "/" .RelPermalink)) "/" "__" }}
